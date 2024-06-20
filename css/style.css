@@ -69,7 +69,6 @@ main{
 .imagen_persona {
     width: 55px;
     height: 55px;
-    background: red;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
