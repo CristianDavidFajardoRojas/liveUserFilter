@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:wght@500&display=swap');
+
+header{
+    display: flex;
+    flex-direction: column;
+    padding: 35px 20px;
+    background-color: rgb(73, 73, 250);
+    color: white;
+    gap: 20px;
+    font-size: 21px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.textosHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.textosHeader span {
+    font-size: 17px;
+}
+
+.search{
+    display: flex;
+}
+
+.search input {
+    outline: none;
+    padding: 5px 20px;
+    width: 100%;
+    height:35px;
+    border-radius: 50px;
+    font-size: 18px;
+    border: none;
+    background: rgba(0, 0, 0, 0.26);
+}
